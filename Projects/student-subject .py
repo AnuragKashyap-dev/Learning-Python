@@ -1,0 +1,10 @@
+name = input("enter your name:  ")
+print(name)
+l = [ ]
+l1 = input("enter your subject")
+l2 = input("enter your subject")
+l3 = input("enter your subject")
+l.append(l1)
+l.append(l2)
+l.append(l3)
+print(l)

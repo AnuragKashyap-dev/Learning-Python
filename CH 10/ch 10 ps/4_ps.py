@@ -1,0 +1,19 @@
+class calculator:
+
+    @staticmethod
+    def greet():
+        print("Hello!!")
+    def __init__(self,n):
+        self.n = n
+    def square (self):
+        print(f"the square is {self.n*self.n}")    
+    def cube (self):
+        print(f"the cube is {self.n*self.n*self.n}")    
+    def squareroot (self):
+        print(f"the squareroot is {self.n*self.n}")    
+
+a = calculator(8)
+a.greet()
+a.square()
+a.cube()
+a.squareroot()
