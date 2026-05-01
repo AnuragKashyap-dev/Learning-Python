@@ -24,7 +24,7 @@ except:
     except:
         print("String")
 
-# Q2. List input & sum
+# Q3. List input & sum
 # Take 5 numbers from user, store in list, print sum.
 
 a  = int(input("enter a number - "))
@@ -42,7 +42,7 @@ l.append(e)
 sum = (a+b+c+d+e)
 print(f"sum of {l} is {sum}")
 
-# Q3. Simple interest
+# Q4. Simple interest
 # Take P, R, T and calculate SI.
 
 p = int(input("enter the principal amount - "))
