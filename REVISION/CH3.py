@@ -1,61 +1,61 @@
-# # LEVEL 1 (Basic control)
-# # Q1.Take a string and print:
-# # first character
-# # last character
+# LEVEL 1 (Basic control)
+# Q1.Take a string and print:
+# first character
+# last character
 
-# str = "python"
-# print(str[0])
-# print(str[-1])
-# # Q2.Take a string and print:
-# # first 4 characters
-# # last 4 characters
+str = "python"
+print(str[0])
+print(str[-1])
+# Q2.Take a string and print:
+# first 4 characters
+# last 4 characters
 
-# str = "zebronics"
-# print(str[0:4])
-# print(str[5:])
+str = "zebronics"
+print(str[0:4])
+print(str[5:])
 
-# # Q3.Given:
-# # s = "python"
-# # Print:
-# # pyt
-# # hon
-
+# Q3.Given:
 # s = "python"
-# print(s[0:3])
-# print(s[3:])
+# Print:
+# pyt
+# hon
 
-# # Q4.Reverse a string using slicing.
+s = "python"
+print(s[0:3])
+print(s[3:])
 
-# str = "anurag"
-# print(str[::-1])    #bcz '::-1' this says that print from last to first bcz the skip value is -1
+# Q4.Reverse a string using slicing.
 
-# # Q5.Print this exactly:
-# # Hello
-# # World
-# # (using escape sequence)
+str = "anurag"
+print(str[::-1])    #bcz '::-1' this says that print from last to first bcz the skip value is -1
 
-# print("hello\nworld")
+# Q5.Print this exactly:
+# Hello
+# World
+# (using escape sequence)
 
-# # Q6.Convert a string to:
-# # uppercase
-# # lowercase
+print("hello\nworld")
 
-# str  = "hemoglobin"
-# print(str.capitalize())
-# print(str.lower())
-# print(str)
+# Q6.Convert a string to:
+# uppercase
+# lowercase
 
-# # Q7.Count total characters in a string.
+str  = "hemoglobin"
+print(str.capitalize())
+print(str.lower())
+print(str)
 
-# str = "royal"
-# print(len(str))
+# Q7.Count total characters in a string.
+
+str = "royal"
+print(len(str))
 
 # #LEVEL 2 (Concept building)
 
 # #Q8.Take a string and print every second character.
 
-# str = "royalchallengersbangalore"
-# print(str[0::2])
+str = "royalchallengersbangalore"
+print(str[0::2])
 
 # Q9.Take a string and print characters from index 2 to 8 with step 2.
 
@@ -110,4 +110,37 @@ print(str)
 string = "geforcertx"
 print(string[::2])  #even
 print(string[::3])  #odd
+
+# Q16.Given:
+# s = "abcdefg"
+# Print:
+# aceg
+# gfedcba
+
+s = "abcdefg"
+print(s[::2])
+print(s[::-1])
+
+# Q17. Take a string and remove first and last character using slicing.
+
+str = "programming"
+print(str[1:10])
+
+# Q18.Check if a string is palindrome using slicing.
+
+str = "level"
+palindrome1 = str[::-1]
+if str == palindrome1 :
+    print("yes , this word is palindrome")
+
+
+
+# Q19.Print this exactly:
+# Name: Anurag
+# Age: 15 (using escape sequences in one print)
+
+print("Name : Anurag \n Age : 15")
+
+
+
 
