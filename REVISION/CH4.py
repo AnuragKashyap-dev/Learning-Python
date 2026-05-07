@@ -58,48 +58,73 @@ tuple2 = (76,90,355,32,67,76,56)
 print(len(tuple2))
 
 
-
-
-
-
-
-
-
-
-
-
 # 🔹 LEVEL 2 (Concept building)
-# Q9
 
-# Take a list and print all elements using indexing.
 
-# Q10
+# Q9.Take a list and print all elements using indexing.
 
-# Find the maximum element in a list (without max()).
+liist = ["orange",900,0.14,"anurag"]
+print(liist[0])
+print(liist[1])
+print(liist[2])
+print(liist[3])
 
-# Q11
+# Q10.Find the maximum element in a list.
 
-# Count how many times an element appears in a list.
+liist = [23,56,899]
+print(max(liist))
 
-# Q12
+# Q11.Count how many times an element appears in a list.
 
-# Convert a list into a tuple.
+liist = [1,1,1,2,2,2,3,4,5,5,6,6,6]
+count1  = (liist.count(1))
+count2 = (liist.count(2))
+count3 = (liist.count(3))
+count4 = (liist.count(4))
+count5 = (liist.count(5))
+count6 = (liist.count(6))
+print(f"1:- {count1}")
+print(f"2:- {count2}")
+print(f"3:- {count3}")
+print(f"4:- {count4}")
+print(f"5:- {count5}")
+print(f"6:- {count6}")
 
-# Q13
+# Q12.Convert a list into a tuple.
 
-# Convert a tuple into a list.
+lisst = [1,34,5,67,33]
+s = tuple(lisst)
+print(type(s))
 
-# Q14
+# # Q13.Convert a tuple into a list.
 
-# Check if an element exists in a list.
+tuple = (1,34,5,67,33)
+s = list(tuple)
+print(type(s))
 
-# Q15
+# Q14.Check if an element exists in a list.
 
-# Given:
+list = [1,34,5,67,33,1]
+print(1 in (list))
 
+# Q15 .Given:
 # l = [1, 2, 3, 4, 5]
-
 # Print elements at even index positions.
+
+l = [1, 2, 3, 4, 5]
+print(l[1::2])
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 🔹 LEVEL 3 (Where real understanding shows)
 # Q16
