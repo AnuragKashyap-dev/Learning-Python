@@ -115,64 +115,133 @@ l = [1, 2, 3, 4, 5]
 print(l[1::2])
 
 
-
-
-
-
-
-
-
-
-
-
-
 # 🔹 LEVEL 3 (Where real understanding shows)
-# Q16
+# Q16.Remove duplicates from a list (keep order).
+l = [1,2,3,4,1,67,86]
+l2 = []
+for item in l:
+    if item not in l2:
+        l2.append(item)
+        
+print(l2)    
 
-# Remove duplicates from a list (keep order).
-
-# Q17
-
-# Take a list and:
-
+# Q17.Take a list and:
 # create a new list with squares of elements
-# Q18
+l = [1,2,3,4,5,6,7,8,9,10]
+nl = []
+for item in l:
+        nl.append(item*item)
+print(nl)
 
-# Swap first and last element of a list.
 
-# Q19
+# Q18.Swap first and last element of a list.
 
-# Given:
+l = [1,2,3,4,5,6,7,8,9,10]
+l[0],l[-1] =  l[-1],l[0]
+print(l)
 
+
+# Q19.Given:
 # t = (10, 20, 30)
-
 # Try to change value and observe error.
-# 👉 Explain why it happens.
+# Explain why it happens.
 
-# Q20
+t = (10, 20, 30)
+'this is a tuple and tuples are immutable'
 
-# Merge two lists into one.
 
-# Q21
+# Q20.Merge two lists into one.
 
-# Find the second largest element in a list.
+l = [1,2,3,4,5,6,7,8,9,10]
+l2 = [1,2,3,4,1,67,86]
 
-# Q22
+l3 = l + l2
 
-# Take a list and:
+print(l3)
 
+# Q21. Find the second largest element in a list.
+l =[1,78,5434,747,68767]
+l.sort()
+print(l[-2])
+
+
+
+
+
+
+
+
+
+
+
+# Q22.Take a list and:
 # separate even and odd numbers into two lists
-# Q23
 
-# Given:
+l = []
 
+
+
+
+
+
+
+
+
+
+
+
+
+# Q23.Given:
 # l = [1, 2, 3]
-
 # Predict output:
-
 # a = l
 # a.append(4)
 # print(l)
-# Q24
 
-# Create a tuple with mixed data types and print type of each element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Q24.Create a tuple with mixed data types and print type of each element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
