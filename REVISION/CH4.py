@@ -164,33 +164,21 @@ l =[1,78,5434,747,68767]
 l.sort()
 print(l[-2])
 
-
-
-
-
-
-
-
-
-
-
 # Q22.Take a list and:
 # separate even and odd numbers into two lists
 
-l = []
-
-
-
-
-
-
-
-
-
-
-
-
-
+l = [23,44,66,22,99,67,89]
+le = []
+lo = []
+for items in l:
+        a = items%2
+        if a == 0 :
+                le.append(items)
+        else:
+                lo.append(items)
+print(f"even numbers :- {le}")
+print(f"odd numbers :- {lo}")
+     
 # Q23.Given:
 # l = [1, 2, 3]
 # Predict output:
@@ -198,21 +186,14 @@ l = []
 # a.append(4)
 # print(l)
 
+'''in this case the list is itself printed and also 4 is added to the end because 
+a = l means list is equal to a and 4 is appended to a i.e l 
+so, it will print [1,2,3,4]'''
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+l = [1, 2, 3]
+a = l
+a.append(4)
+print(l)
 
 
 
@@ -224,24 +205,7 @@ l = []
 
 # Q24.Create a tuple with mixed data types and print type of each element.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+tuple = (45,0.56,"aura",False)
+for items in tuple:
+        print(type(items))
 
