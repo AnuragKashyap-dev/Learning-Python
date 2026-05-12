@@ -75,11 +75,17 @@ print(s)
 
 # Q10.Count frequency of elements using dictionary.
 
+l = [1, 2, 2, 3, 3, 3]
 
+frequency = {}
 
+for item in l:
+    if item in frequency:
+        frequency[item] += 1
+    else:
+        frequency[item] = 1
 
-
-
+print(frequency)
 # Q11.Check if a key exists in dictionary.
 dict = {"name":"Anurag",
         "age":"16",
@@ -94,14 +100,16 @@ else:
 # dict1 = {"anurag":"kashyap"}
 # dict2 = {"kashyap":"anurag"}
 
+dict = {"name":"Anurag"}
+d2 = {"age":"15"}
+dict.update(d2)
+
+print(dict)
 
 # Q13.Create a dictionary from two lists:
 # keys = ["name", "age"]
 # values = ["Anurag", 15]
-# dict = {}
-# dict.update(keys = ["name", "age"],
-# values = ["Anurag", 15])
-# print(dict)
+
 
 # Q14.Find common elements between two sets.
 s = {1,2,3}
@@ -121,25 +129,46 @@ print(s.difference(s2))
 
 
 # LEVEL 3
-# Q17
+# Q17.Take a sentence and count frequency of each word.
 
-# Take a sentence and count frequency of each word.
+line = "my name is anurag kashyap"
+words = line.split()
+freq = {}
+for word in words:
+    if word in freq:
+        freq[word] += 1
+    else:
+        freq[word] = 1
+print(freq)
 
-# Q18
 
-# Store marks of 5 students in dictionary and print highest scorer.
+# Q18.Store marks of 5 students in dictionary and print highest scorer.
 
-# Q19
+marks ={"Aman": 90,
+    "Ravi": 85,
+    "Anurag": 95,
+    "Sita": 88,
+    "Rahul": 80}
 
-# Remove duplicate elements from a list using set.
+highest = max(marks,values = marks.get)
+print("highest scorer",highest)
+print("highest marks",marks[highest])
 
-# Q20
+# Q19.Remove duplicate elements from a list using set.
 
-# Create a nested dictionary for 2 students:
+duplicate = (1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,4,4,5,5,5,5,5,5)
+set1 = set(duplicate)
+print(set1)
 
+# Q20.Create a nested dictionary for 2 students:
 # {
 #  "Aman": {"Math": 90},
 #  "Ravi": {"Math": 85}
 # }
-
 # Print specific marks.
+
+
+
+
+
+
