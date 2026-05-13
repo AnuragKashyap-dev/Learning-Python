@@ -150,7 +150,7 @@ marks ={"Aman": 90,
     "Sita": 88,
     "Rahul": 80}
 
-highest = max(marks,values = marks.get)
+highest = max(marks,key = marks.get)
 print("highest scorer",highest)
 print("highest marks",marks[highest])
 
@@ -167,8 +167,9 @@ print(set1)
 # }
 # Print specific marks.
 
+marks =  {
+  "Aman": {"Math": 90},
+  "Ravi": {"Math": 85}
+ }
 
-
-
-
-
+print(marks["Aman"]["Math"])
