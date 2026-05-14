@@ -9,41 +9,120 @@
 
 
 # 🔹 LEVEL 1 — Absolute Basics
+
 # Q1.Check whether a number is positive.
+
+number = int(input("enter a number:- "))
+if (number>0) :
+    print(f"{number} is positive.")
+else:
+    print(f"{number} is negative !!")
 
 # Q2.Check whether a number is negative.
 
-# Q3
+number = int(input("enter a number:- "))
+if (number<0) :
+    print(f"{number} is negative !!")
+else:
+    print(f"{number} is positive.")
 
-# Check whether a number is zero.
+# Q3.Check whether a number is zero.
 
-# Q4
+number = int(input("enter a number:- "))
+if (number==0) :
+    print(f"this '{number}' is zero")
+else:
+    print(f"this '{number}' is not zero.")
 
-# Check whether a number is even or odd.
+# Q4.Check whether a number is even or odd.
 
-# Q5
+number = int(input("enter a number:- "))
+if (number%2 == 0) :
+    print(f"this '{number}' is even.")
+else:
+    print(f"this '{number}' is odd.")
 
-# Check whether a number is divisible by 5.
+# Q5.Check whether a number is divisible by 5.
 
-# Q6
+number = int(input("enter a number:- "))
+if (number%5 == 0) :
+    print(f"this '{number}' is divisible by 5.")
+else:
+    print(f"this '{number}' is not divisible by 5.")
 
-# Check whether a number is divisible by both 3 and 5.
 
-# Q7
+# Q6.Check whether a number is divisible by both 3 and 5.
 
-# Check whether a person is eligible to vote (18+).
+number = int(input("enter a number:- "))
+if (number%3== 0 and number%5== 0) :
+    print(f"this '{number}' is divisible by 3 and 5.")
+else:
+    print(f"this '{number}' is not divisible by 3 and 5.")
 
-# Q8
+# Q7.Check whether a person is eligible to vote (18+).
 
-# Find greater between two numbers.
+age = int(input("enter your age:- "))
+if (age >= 18) :
+    print("you are eligible to vote")
+else:
+    print(f"you are not eligible to vote come back after {18 - age} years")
 
-# Q9
+# Q8.Find greater between two numbers.
 
-# Find smaller between two numbers.
+number1 = int(input("enter the number1 :- "))
+number2 = int(input("enter the number2 :- "))
+if (number1 > number2):
+    print("number 1 is greater")
 
-# Q10
+elif(number1 == 0 or number2 ==0):
+    print("number is equal to zero")    
 
-# Check whether a character is vowel or consonant.
+elif(number2 == number1):
+    print("both are same")
+
+else:
+    print("number2 is greater")
+
+# Q9.Find smaller between two numbers.
+
+number1 = int(input("enter the number1 :- "))
+number2 = int(input("enter the number2 :- "))
+if (number1 > number2):
+    print(f"number {number1} is smaller")  
+elif(number2 > number1):
+    print(f"number {number2} is smallest")
+
+
+
+# Q10.Check whether a character is vowel or consonant.
+
+vowel = ("a,e,i,o,u")
+letter = input("enter the letter:- ")
+for letters in vowel:
+    if letter in letters:
+        print(f"{letter} is a vowel")
+    else:
+        print(f"{letter} is consonent")    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 🔹 LEVEL 2 — Core Logic Building
 # Q11
