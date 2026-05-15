@@ -105,88 +105,110 @@ for letters in vowel:
         print(f"{letter} is consonent")    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # 🔹 LEVEL 2 — Core Logic Building
-# Q11
+# Q11.Find greatest among 3 numbers.
 
-# Find greatest among 3 numbers.
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+c = int(input("Enter a number: "))
 
-# Q12
+if a > b and a > c:
+    print(f"{a} is greatest")
 
-# Find smallest among 3 numbers.
+elif b > a and b > c:
+    print(f"{b} is greatest")
 
-# Q13
+else:
+    print(f"{c} is greatest")
 
-# Take marks and print:
+# Q12.Find smallest among 3 numbers.
 
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a < b and a < c:
+    print(f"{a} is smallest")
+
+elif b < a and b < c:
+    print(f"{b} is smallest")
+
+else:
+    print(f"{c} is smallest")
+
+# Q13.Take marks and print:
 # Pass (>=33)
 # Fail
-# Q14
 
-# Print grade:
+marks = int(input("enter your marks:- "))
+if (marks >=33):
+  print("you are passed....")
+else:
+  print("sorry , but you are failed!!!")
 
+# Q14.Print grade:
 # A (90+)
 # B (75+)
 # C (50+)
 # Fail
-# Q15
 
-# Check whether year is leap year.
+marks = int(input("enter your marks:- "))
 
-# Q16
+if (marks >=90):
+  print(f"you got an 'A' ")
+elif(marks>=75):
+  print(f"you got an 'B' ")
+elif(marks>=50):
+  print(f"you got an 'C' ")
+else:
+  print("sorry , but you are failed!!!")
 
-# Check whether character is:
+# Q15.Check whether year is leap year.
 
+year = int(input("enter the year:- "))
+if (year%4) == 0:
+  print(f"{year} is a leap year")
+else:
+  print(f"{year} is not a leap year")
+
+# Q16.Check whether character is:
 # uppercase
 # lowercase
-# Q17
 
-# Check whether number is:
 
+
+
+
+
+# Q17.Check whether number is:
 # positive
 # negative
 # zero
-
 # (using if-elif-else)
 
-# Q18
 
-# Create a simple calculator:
 
+
+
+
+
+
+
+
+# Q18.Create a simple calculator:
 # +
 # -
 # *
 # /
-# Q19
 
-# Check whether a number lies between 1 and 100.
+# Q19.Check whether a number lies between 1 and 100.
 
-# Q20
-
-# Check whether number is multiple of:
-
+# Q20.Check whether number is multiple of:
 # 2
 # 3
 # both
 # none
+
 # 🔹 LEVEL 3 — Real Thinking Questions
 # Q21
 
