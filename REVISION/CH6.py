@@ -175,10 +175,16 @@ else:
 # uppercase
 # lowercase
 
+word = input("Enter a word: ")
 
+if word.isupper():
+    print("The word is in uppercase")
 
+elif word.islower():
+    print("The word is in lowercase")
 
-
+else:
+    print("The word is mixed case")
 
 # Q17.Check whether number is:
 # positive
@@ -186,14 +192,13 @@ else:
 # zero
 # (using if-elif-else)
 
-
-
-
-
-
-
-
-
+number = int(input("enter the number:-"))
+if (number>0):
+  print(f"{number}  is positive ")
+elif (number<0):
+  print(f"{number}  is negative ")
+else:
+  print("number is equal to 0 ")
 
 # Q18.Create a simple calculator:
 # +
@@ -201,13 +206,50 @@ else:
 # *
 # /
 
+print("====Calculator======")
+print("operations = + , - , / , * ")
+number1 = int(input("enter the number:- "))
+operation = input("operation:- ")
+number2 = int(input("enter another number:- "))
+if operation == "/":
+  print(f"{number1}/{number2} = {number1/number2}")
+  
+elif operation == "*":
+  print(f"{number1}*{number2} = {number1*number2}")
+  
+elif operation == "+":
+  print(f"{number1}+{number2} = {number1+number2}")
+  
+elif operation == "-":
+  print(f"{number1}-{number2} = {number1-number2}")
+else:
+  print("invalid operation")
+
 # Q19.Check whether a number lies between 1 and 100.
+
+number = int(input("enter the number:- "))
+if (number > 1) and (number < 100):
+  print("yess,number is between 1 and 100")
+else:
+  print("noo,number is not in between 1 and 100")
 
 # Q20.Check whether number is multiple of:
 # 2
 # 3
 # both
 # none
+
+number = int(input("enter the number:- "))
+if (number%3 == 0)and(number%2==0):
+  print(f"{number} is divisible by both 2 and 3")
+elif number%2 == 0:
+  print(f"{number} is divisible by 2")
+elif number%3 ==0:
+  print(f"{number} is divisible by 3")
+elif (number%3 == 0)and(number%2==0):
+  print(f"{number} is divisible by both 2 nd 3")
+else:
+  print("none")
 
 # 🔹 LEVEL 3 — Real Thinking Questions
 # Q21
