@@ -252,54 +252,108 @@ else:
   print("none")
 
 # 🔹 LEVEL 3 — Real Thinking Questions
-# Q21
 
-# Find greatest among 4 numbers.
+# Q21.Find greatest among 4 numbers
 
-# Q22
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+d = int(input("Enter fourth number: "))
 
-# Check whether triangle is valid.
+if a > b and a > c and a > d:
+    print(f"{a} is greatest")
 
+elif b > a and b > c and b > d:
+    print(f"{b} is greatest")
+
+elif c > a and c > b and c > d:
+    print(f"{c} is greatest")
+
+else:
+    print(f"{d} is greatest")
+
+# Q22.Check whether triangle is valid.
 # (Hint: sum of two sides > third side)
 
-# Q23
+a = int(input("Enter side 1: "))
+b = int(input("Enter side 2: "))
+c = int(input("Enter side 3: "))
 
-# Check whether a character is alphabet, digit, or special character.
+if a + b > c and a + c > b and b + c > a:
+    print("Valid Triangle")
 
-# Q24
+else:
+    print("Invalid Triangle")
 
-# Create login system:
+# Q23. Check whether a character is alphabet, digit, or special character.
 
+word = input("Enter a character: ")
+
+if word.isalpha():
+    print("Alphabet")
+
+elif word.isdigit():
+    print("Digit")
+
+else:
+    print("Special Character")
+
+# Q24. Create login system:
 # correct username
 # correct password
-# Q25
 
-# ATM withdrawal system:
+correctusername = "admin"
+correctpassword = "1234"
 
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == correctusername and password == correctpassword:
+    print("Login Successful")
+
+else:
+    print("Invalid Username or Password")
+
+# Q25.ATM withdrawal system:
 # sufficient balance
 # valid amount
-# Q26
 
-# Electricity bill calculator:
+balance = 10000
+amount = int(input("Enter withdrawal amount: "))
 
+if amount <= 0:
+    print("Invalid amount")
+
+elif amount > balance:
+    print("Insufficient balance")
+
+else:
+    balance = balance - amount
+    print("Withdrawal successful")
+    print("Remaining balance:", balance)
+  
+# Q26.Electricity bill calculator:
 # different bill rates using conditions
-# Q27
 
-# Check whether number is palindrome.
 
-# Q28
 
-# Check whether a student passed in:
+# Q27.Check whether number is palindrome.
 
+
+
+
+
+
+
+# Q28.Check whether a student passed in:
 # all subjects
 # or failed in one subject
-# Q29
 
-# Menu-driven program:
-
+# Q29.Menu-driven program:
 # 1. Add
 # 2. Subtract
 # 3. Exit
-# Q30
 
-# Find second greatest among 3 numbers.
+
+
+# Q30.Find second greatest among 3 numbers.
