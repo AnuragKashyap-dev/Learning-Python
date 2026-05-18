@@ -349,11 +349,47 @@ else:
 # all subjects
 # or failed in one subject
 
+"Let passing marks be 37"
+marksgot1 = int(input("enter your marks in science:- "))
+marksgot2 = int(input("enter your marks in english:- "))
+marksgot3 = int(input("enter your marks in maths:- "))
+marksgot4 = int(input("enter your marks in sst:- "))
+
+if marksgot1 >= 37 and marksgot2 >= 37 and marksgot3 >= 37 and marksgot4 >= 37:
+  print("you are passed")
+elif marksgot1 >100 and marksgot2 > 100 and marksgot3 >100 and marksgot4 >100:
+  print("marks can't exceed 100")
+else:
+  print("you are failed")
+
 # Q29.Menu-driven program:
 # 1. Add
 # 2. Subtract
 # 3. Exit
 
+print("--Choose--")
+print("1.Add")
+print("2.Subtract")
+print("3.Exit")
 
+choice = int(input("Enter your Choice:- "))
+if choice == 1:
+  print("Addition")
+  a = int(input("Enter 1st number"))
+  b = int(input("Enter 2nd number"))
+  print(f"Sum is {a+b}")
+  
+elif choice == 2:
+  print("Substraction")
+  a = int(input("Enter 1st number"))
+  b = int(input("Enter 2nd number"))
+  print(f"Difference is {a-b}")
+  
+elif choice == 3:
+  print("Program Exited")
+  
+else:
+  print("Incorrect choice")
 
 # Q30.Find second greatest among 3 numbers.
+
