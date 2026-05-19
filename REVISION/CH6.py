@@ -335,15 +335,24 @@ else:
 # Q26.Electricity bill calculator:
 # different bill rates using conditions
 
+units = int(input("Enter units:- "))
 
+if units<=100:
+  print(f"Electricity bill = {units*5}")
+
+elif units<=200:
+  print(f"Electricity bill = {(100*5)+((units-100)*10)}")
+
+else:
+  print(f"Electricity bill = {(100*5)+(100*10)+((units-200)*15)}")
 
 # Q27.Check whether number is palindrome.
 
-
-
-
-
-
+num = input("Enter the number:- ")
+if num == num[::-1]:
+  print("Number is palindrome")
+else:
+  print("No the number is not palindrome")
 
 # Q28.Check whether a student passed in:
 # all subjects
@@ -393,3 +402,17 @@ else:
 
 # Q30.Find second greatest among 3 numbers.
 
+a = int(input("enter 1st number:- "))
+b = int(input("enter 2nd number:- "))
+c = int(input("enter 3rd number:- "))
+ 
+if a>b and a<c or a>c and a<b:
+  print(f"{a} is second greatest")
+elif b>a and b<c or b<a and b>c:
+  print(f"{b} is second greatest")
+elif c>b and c<a or c<b and c>a:
+  print(f"{c} is second greatest")
+elif a == b == c :
+  print("all are same")
+else:
+  print("something went wrong!!")
