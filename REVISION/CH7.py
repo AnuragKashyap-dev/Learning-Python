@@ -1,6 +1,18 @@
 1. Print numbers from 1 to 10 using both for and while loop.
 
+for i in range(1,11):
+  print(i)
+
+i = 1
+while i <= 10:
+  print(i)
+  i+=1
+
 2. Print all even numbers between 1 and 50.
+
+for i in range(1,51):
+  if i%2==0:
+    print(i)
 
 3. Find sum of first n natural numbers.
 
