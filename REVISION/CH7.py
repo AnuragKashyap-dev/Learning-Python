@@ -26,7 +26,23 @@ print("Sum =", sum)
 
 4. Print multiplication table of a number.
 
+num = 8
+for i in range(1,11):
+  print(f"{num} X {i} = {i*num}")
+
+
+num = int(input("enter a number:- "))
+for i in range(1,11):
+  print(f"{num} X {i} = {i*num}")
+
 5. Find factorial of a number.
+
+
+
+
+
+
+
 
 6. Reverse a number.
 
