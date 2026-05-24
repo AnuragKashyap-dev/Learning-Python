@@ -37,13 +37,6 @@ for i in range(1,11):
 
 5. Find factorial of a number.
 
-
-
-
-
-
-
-
 6. Reverse a number.
 
 7. Check whether a number is palindrome.
