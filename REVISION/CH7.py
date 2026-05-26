@@ -37,6 +37,15 @@ for i in range(1,11):
 
 5. Find factorial of a number.
 
+num = int(input("Enter a number: "))
+
+int = 1
+
+for i in range(1, num + 1):
+    int = int * i
+
+print(f"Factorial = {int}")
+
 6. Reverse a number.
 
 7. Check whether a number is palindrome.
