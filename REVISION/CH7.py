@@ -70,11 +70,17 @@ print(f"Factorial = {int}")
 ***
 ****
 
+for i in range(1,5):
+  print("*"*i)
+
 16. Print pattern:
 ****
 ***
 **
 *
+
+for i in range(4,0,-1):
+  print("*"*i)
 
 17. Create login system with 3 attempts.
 
