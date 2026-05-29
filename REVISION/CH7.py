@@ -1,5 +1,5 @@
 # 1. Print numbers from 1 to 10 using both for and while loop.
-'''
+
 for i in range(1,11):
   print(i)
 
@@ -103,7 +103,6 @@ while(attempts<max_attempts):
 if attempts == max_attempts:
     print("too many attempts , access denied")
 
-'''
 # 18. Create menu-driven calculator using loop.
 
 # 19. Keep taking input until user enters 0.
@@ -115,3 +114,9 @@ while(num != number):
 print("succesfull")
 
 # 20. Guess the number game using loop.
+number = 220
+num = int(input("guess the number:- "))
+while(num != number):
+   print("try again!")
+   num = int(input("guess the number:- "))
+print("you guessed it RIGHT")   
