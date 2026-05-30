@@ -103,10 +103,6 @@ while(attempts<max_attempts):
 if attempts == max_attempts:
     print("too many attempts , access denied")
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 833bef107cf53c7d9d11d41011455a0c58fd27c3
 # 18. Create menu-driven calculator using loop.
 
 # 19. Keep taking input until user enters 0.
@@ -123,4 +119,4 @@ num = int(input("guess the number:- "))
 while(num != number):
    print("try again!")
    num = int(input("guess the number:- "))
-print("you guessed it RIGHT")   
+print("you guessed it RIGHT")
