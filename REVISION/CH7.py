@@ -49,9 +49,33 @@ print(f"Factorial = {int}")
 
 # 6. Reverse a number.
 
+num = input("enter the number:- ")
+reverse = ""
+for digit in num:
+    reverse = digit + reverse
+print(reverse)    
+
 # 7. Check whether a number is palindrome.
 
+num = input("enter the number:- ")
+palindrome = ""
+for digit in num:
+    palindrome = digit + palindrome
+if num == palindrome:
+   print("yes the number is palindrome")
+else:
+   print("no the number is not palindrome")
+
 # 8. Check whether a number is prime.
+
+num = int(input("enter the number:- "))
+
+for i in range(2,num):
+    if num % i == 0:
+        print("not prime")
+        break
+else:
+    print("prime")
 
 # 9. Print Fibonacci series up to n terms.
 
@@ -61,7 +85,20 @@ print(f"Factorial = {int}")
 
 # 12. Reverse a string using loop.
 
+string = input("enter the number:- ")
+reverse = ""
+for words in string:
+    reverse = words + reverse
+print(reverse)
+
 # 13. Find largest element in a list using loop.
+
+list = [12,45,18,56]
+largest = list[0]
+for items in list:
+    if items>largest:
+        largest = items
+print(f"{largest} is largest.")
 
 # 14. Remove duplicates from a list manually.
 
@@ -104,6 +141,39 @@ if attempts == max_attempts:
     print("too many attempts , access denied")
 
 # 18. Create menu-driven calculator using loop.
+
+choice = 0
+while(choice != 5):
+    print("1.add")
+    print("2.substract")
+    print("3.divide")
+    print("4.multiply")
+    print("5.exit")
+    choice = int(input("Enter your choice:- "))
+    if choice == 1:
+        a = int(input("enter 1st number :- "))
+        b = int(input("enter 2nd number :- "))
+        print(f"the sum is {a+b}")
+    elif choice == 2:
+        a = int(input("enter 1st number :- "))
+        b = int(input("enter 2nd number :- "))
+        if b==0:
+            print("cannot divide by zero!!")
+        else:
+            print(f"the difference is {a-b}")
+    elif choice == 3:
+        a = int(input("enter 1st number :- "))
+        b= int(input("enter 2nd number :- "))
+        print(f"the division is {a/b}")
+
+    elif choice == 4:
+        a = int(input("enter 1st number :- "))
+        b = int(input("enter 2nd number :- "))
+        print(f"the product is {a*b}")
+    elif choice == 5:
+        print("calculator exited")
+    else:
+        print("invalid choice!")
 
 # 19. Keep taking input until user enters 0.
 number = 0
