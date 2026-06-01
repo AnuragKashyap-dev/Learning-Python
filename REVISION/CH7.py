@@ -81,7 +81,23 @@ else:
 
 # 10. Find sum of digits of a number.
 
+number = 122
+str_number = str(number)
+digit_sum = 0
+for digits in str_number:
+    digit_sum += int(digits)
+print(digit_sum)
+
+"use abs to remove sign if number contains negative sign"
 # 11. Count vowels in a string using loop.
+
+str = "anurag"
+str2 = "aeiouAEIOU"
+vowel = 0
+for letter in str:
+    if letter in str2:
+        vowel +=1
+print(vowel)     
 
 # 12. Reverse a string using loop.
 
@@ -101,6 +117,13 @@ for items in list:
 print(f"{largest} is largest.")
 
 # 14. Remove duplicates from a list manually.
+
+l = [12,34,12,54,65]
+l2 = []
+for items in l:
+    if items not in l2:
+        l2.append(items)
+print(l2)
 
 # 15. Print pattern:
 # *
