@@ -1,11 +1,35 @@
 # Loops Practice Set (Intermediate → Advanced)
 
 # Section A: Lists
+
 # Q1.Find the second largest number in a list.
 
-# Q2.Find the second smallest number in a list.
+l = [123,435,63423,6,2354]
+largest = 0 
+second = 0
+for num in l:
+    if num>largest:
+        largest = num
+    else:
+        if num>second and num<largest:
+            second = num
+print(second)
 
-# Q3.Find the largest even number in a list.
+# # Q2.Find the second smallest number in a list.
+
+l = [12,11,234,543]
+smallest = l[0]
+second_smallest = l[0]
+for num in l:
+    if num>smallest:
+        smallest = num
+    else:
+        if num>second_smallest and num<smallest:
+            second_smallest = num
+print(second_smallest)
+
+# # Q3.Find the largest even number in a list.
+
 l = [24,56,87,65,66]
 largest = 0
 for num in l :
@@ -15,12 +39,26 @@ print(largest)
 
 # Q4.Find the smallest odd number in a list.
 
-# Q5
-# Count how many elements are greater than the average of the list.
-# Q6
-# Find the sum of all odd numbers in a list.
-# Q7
-# Find the product of all elements in a list.
+l = [32,34,5,65]
+smallest = l[0]
+for num in l :
+    if num%2 != 0 and num<smallest:
+        smallest = num
+print(smallest)
+
+# Q5.Count how many elements are greater than the average of the list.
+
+# Q6.Find the sum of all odd numbers in a list.
+
+l = [1,3,4,7,9,2]
+odd = 0
+for num in l:
+    if num%2 != 0 :
+        odd += num
+print(odd)
+
+# Q7.Find the product of all elements in a list.
+
 # Q8
 # Create a new list containing cubes of all numbers.
 # Q9
