@@ -13,7 +13,7 @@ for num in l:
     else:
         if num>second and num<largest:
             second = num
-print(second)
+print(second) 
 
 # # Q2.Find the second smallest number in a list.
 
@@ -59,8 +59,13 @@ print(odd)
 
 # Q7.Find the product of all elements in a list.
 
-# Q8
-# Create a new list containing cubes of all numbers.
+l = [2,4,6,8]
+product = 1
+for num in l:
+    product = num*product
+print(product)    
+
+# Q8.Create a new list containing cubes of all numbers.
 # Q9
 # Remove duplicates from a list using loops.
 # Q10
