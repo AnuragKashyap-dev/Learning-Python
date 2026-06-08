@@ -48,6 +48,17 @@ print(smallest)
 
 # Q5.Count how many elements are greater than the average of the list.
 
+
+
+
+
+
+
+
+
+
+
+
 # Q6.Find the sum of all odd numbers in a list.
 
 l = [1,3,4,7,9,2]
