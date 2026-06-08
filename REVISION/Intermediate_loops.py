@@ -48,6 +48,14 @@ print(smallest)
 
 # Q5.Count how many elements are greater than the average of the list.
 
+l = [2,3,4,7]
+greatest = 0
+average = (2+3+4+7)/4
+for num in l:
+    if num >average:
+        greatest+=1
+print(greatest) 
+
 # Q6.Find the sum of all odd numbers in a list.
 
 l = [1,3,4,7,9,2]
@@ -66,10 +74,33 @@ for num in l:
 print(product)    
 
 # Q8.Create a new list containing cubes of all numbers.
-# Q9
-# Remove duplicates from a list using loops.
-# Q10
-# Find all duplicate elements in a list.
+
+l = [2,3,4,5]
+cube = [ ]
+for num in l:
+    if num not in cube:
+        cube.append(num*num*num)
+print(cube)        
+
+# Q9.Remove duplicates from a list using loops.
+
+l = [1,2,3,4,4,5]
+l2 = []
+for num in l :
+    if num not in l2:
+        l2.append(num)
+print(l2)
+
+# Q10.Find all duplicate elements in a list.
+l = [1,2,3,3,4,5]
+duplicate = []
+for num in l:
+    if l.count(num)>1 and num not in duplicate:
+        duplicate.append(num)
+    else:
+        l2.append(num)
+print(duplicate)
+
 # 🔹 Section B: Strings
 # Q11
 # Count vowels in a string.
