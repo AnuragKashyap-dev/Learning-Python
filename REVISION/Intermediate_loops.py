@@ -1,120 +1,105 @@
-# # Loops Practice Set (Intermediate → Advanced)
+# Loops Practice Set (Intermediate → Advanced)
 
-# # Section A: Lists
+# Section A: Lists
 
-# # Q1.Find the second largest number in a list.
+# Q1.Find the second largest number in a list.
 
-# l = [123,435,63423,6,2354]
-# largest = 0 
-# second = 0
-# for num in l:
-#     if num>largest:
-#         largest = num
-#     else:
-#         if num>second and num<largest:
-#             second = num
-# print(second) 
+l = [123,435,63423,6,2354]
+largest = 0 
+second = 0
+for num in l:
+    if num>largest:
+        largest = num
+    else:
+        if num>second and num<largest:
+            second = num
+print(second) 
 
-# # # Q2.Find the second smallest number in a list.
+# # Q2.Find the second smallest number in a list.
 
-# l = [12,11,234,543]
-# smallest = l[0]
-# second_smallest = l[0]
-# for num in l:
-#     if num>smallest:
-#         smallest = num
-#     else:
-#         if num>second_smallest and num<smallest:
-#             second_smallest = num
-# print(second_smallest)
+l = [12,11,234,543]
+smallest = l[0]
+second_smallest = l[0]
+for num in l:
+    if num>smallest:
+        smallest = num
+    else:
+        if num>second_smallest and num<smallest:
+            second_smallest = num
+print(second_smallest)
 
-# # # Q3.Find the largest even number in a list.
+# # Q3.Find the largest even number in a list.
 
-# l = [24,56,87,65,66]
-# largest = 0
-# for num in l :
-#     if num%2 == 0 and num>largest:
-#         largest = num
-# print(largest)
+l = [24,56,87,65,66]
+largest = 0
+for num in l :
+    if num%2 == 0 and num>largest:
+        largest = num
+print(largest)
 
-# # Q4.Find the smallest odd number in a list.
+# Q4.Find the smallest odd number in a list.
 
-# l = [32,34,5,65]
-# smallest = l[0]
-# for num in l :
-#     if num%2 != 0 and num<smallest:
-#         smallest = num
-# print(smallest)
+l = [32,34,5,65]
+smallest = l[0]
+for num in l :
+    if num%2 != 0 and num<smallest:
+        smallest = num
+print(smallest)
 
-# # Q5.Count how many elements are greater than the average of the list.
+# Q5.Count how many elements are greater than the average of the list.
 
-<<<<<<< HEAD
-# l = [2,3,4,7]
-# greatest = 0
-# average = (2+3+4+7)/4
-# for num in l:
-#     if num >average:
-#         greatest+=1
-# print(greatest) 
-=======
-
-
-
-
-
-
-
-
-
-
+l = [2,3,4,7]
+greatest = 0
+average = (2+3+4+7)/4
+for num in l:
+    if num >average:
+        greatest+=1
+print(greatest) 
 
 # Q6.Find the sum of all odd numbers in a list.
->>>>>>> b314adf0b9f81bcd51a8445b1524a8956fc2e017
 
-# # Q6.Find the sum of all odd numbers in a list.
+l = [1,3,4,7,9,2]
+odd = 0
+for num in l:
+    if num%2 != 0 :
+        odd += num
+print(odd)
 
-# l = [1,3,4,7,9,2]
-# odd = 0
-# for num in l:
-#     if num%2 != 0 :
-#         odd += num
-# print(odd)
+# Q7.Find the product of all elements in a list.
 
-# # Q7.Find the product of all elements in a list.
+l = [2,4,6,8]
+product = 1
+for num in l:
+    product = num*product
+print(product)    
 
-# l = [2,4,6,8]
-# product = 1
-# for num in l:
-#     product = num*product
-# print(product)    
+# Q8.Create a new list containing cubes of all numbers.
 
-# # Q8.Create a new list containing cubes of all numbers.
+l = [2,3,4,5]
+cube = [ ]
+for num in l:
+    if num not in cube:
+        cube.append(num*num*num)
+print(cube)        
 
-# l = [2,3,4,5]
-# cube = [ ]
-# for num in l:
-#     if num not in cube:
-#         cube.append(num*num*num)
-# print(cube)        
+# Q9.Remove duplicates from a list using loops.
 
-# # Q9.Remove duplicates from a list using loops.
+l = [1,2,3,4,4,5]
+l2 = []
+for num in l :
+    if num not in l2:
+        l2.append(num)
+print(l2)
 
-# l = [1,2,3,4,4,5]
-# l2 = []
-# for num in l :
-#     if num not in l2:
-#         l2.append(num)
-# print(l2)
-
-# # Q10.Find all duplicate elements in a list.
-# l = [1,2,3,3,4,5]
-# duplicate = []
-# for num in l:
-#     if l.count(num)>1 and num not in duplicate:
-#         duplicate.append(num)
-#     else:
-#         l2.append(num)
-# print(duplicate)
+# Q10.Find all duplicate elements in a list.
+l = [1,2,3,3,4,5]
+duplicate = []
+for num in l:
+    if l.count(num)>1 and num not in duplicate:
+        duplicate.append(num)
+    else:
+        l2.append(num)
+print(duplicate)
 
 # 🔹 Section B: Strings
 # Q11.Count vowels in a string.
