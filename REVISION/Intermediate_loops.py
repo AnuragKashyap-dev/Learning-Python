@@ -48,6 +48,7 @@
 
 # # Q5.Count how many elements are greater than the average of the list.
 
+<<<<<<< HEAD
 # l = [2,3,4,7]
 # greatest = 0
 # average = (2+3+4+7)/4
@@ -55,6 +56,20 @@
 #     if num >average:
 #         greatest+=1
 # print(greatest) 
+=======
+
+
+
+
+
+
+
+
+
+
+
+# Q6.Find the sum of all odd numbers in a list.
+>>>>>>> b314adf0b9f81bcd51a8445b1524a8956fc2e017
 
 # # Q6.Find the sum of all odd numbers in a list.
 
