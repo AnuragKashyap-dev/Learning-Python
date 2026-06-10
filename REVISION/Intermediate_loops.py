@@ -110,14 +110,24 @@ for words in str :
     if words in vowels :
         count_vowel += 1
 print(count_vowel)
-# Q12
-# Count consonants in a string.
+
+# Q12.Count consonants in a string.
 # Q13
 # Count uppercase letters in a string.
 # Q14
 # Count lowercase letters in a string.
-# Q15
-# Count digits in a string.
+# Q15.Count digits in a string.
+
+text = input("Enter a string: ")
+
+digit_count = 0
+
+for word in text:
+    if word.isdigit():
+        digit_count += 1
+
+print("Number of digits in the string:", digit_count)
+
 # Q16
 # Count spaces in a string.
 # Q17
