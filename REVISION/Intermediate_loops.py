@@ -103,6 +103,7 @@ print(duplicate)
 
 # 🔹 Section B: Strings
 # Q11.Count vowels in a string.
+
 str = "anurag"
 vowels = "aeiouAEIOU"
 count_vowel = 0
@@ -110,27 +111,88 @@ for words in str :
     if words in vowels :
         count_vowel += 1
 print(count_vowel)
-# Q12
-# Count consonants in a string.
-# Q13
-# Count uppercase letters in a string.
-# Q14
-# Count lowercase letters in a string.
-# Q15
-# Count digits in a string.
-# Q16
-# Count spaces in a string.
-# Q17
-# Reverse a string using loops.
-# Q18
-# Find the longest word in a sentence.
-# Q19
-# Find the shortest word in a sentence.
-# Q20
-# Count frequency of each character in a string.
+
+# Q12.Count consonants in a string.
+
+str = "anurag"
+vowels = "aeiouAEIOU"
+count_consonent = 0
+for words in str :
+    if words not in vowels :
+        count_consonent += 1
+print(count_consonent)
+
+# Q13.Count uppercase letters in a string.
+
+str = "Anurag Kashyap"
+uppercase_letters = 0
+for letters in str:
+    if letters.isupper():
+        uppercase_letters += 1
+print(uppercase_letters)
+
+
+# Q14.Count lowercase letters in a string.
+
+str = "Anurag Kashyap"
+lowercase_letters = 0
+for letters in str:
+    if letters.islower():
+        lowercase_letters += 1
+print(lowercase_letters)
+
+# Q15.Count digits in a string.
+
+str = "anurag985"
+digit_count = 0
+for digit in str:
+    if digit.isdigit():
+        digit_count += 1
+print(digit_count)
+
+# Q16.Count spaces in a string.
+
+str = "Anurag Kashyap 0 0 0"
+space_count = 0
+for digit in str:
+    if digit.isspace():
+        space_count += 1
+print(space_count)
+
+# Q17.Reverse a string using loops.
+
+str = "anurag"
+ulta_str = ""
+for letter in str:
+    ulta_str = letter + ulta_str
+print(ulta_str)
+        
+# Q18.Find the longest word in a sentence.
+
+sentence = "anurag is a begginner"
+longest = ""
+words = sentence.split()
+for word in words :
+    if len(word)>len(longest):
+        longest = word
+print(longest)
+
+# Q19.Find the shortest word in a sentence.
+
+sentence = "anurag is a begginner"
+words = sentence.split()
+smallest = words[0]
+for word in words :
+    if len(word)<len(smallest):
+        smallest = word
+print(smallest)
+
+# Q20.Count frequency of each character in a string.
+
 # 🔹 Section C: Loops + Conditions
-# Q21
-# Print all numbers between 1 and 100 divisible by both 3 and 5.
+
+# Q21.Print all numbers between 1 and 100 divisible by both 3 and 5.
+
 # Q22
 # Count how many numbers between 1 and 100 are divisible by 7.
 # Q23
@@ -149,7 +211,9 @@ print(count_vowel)
 # Find LCM of two numbers.
 # Q30
 # Check whether a number is a perfect number.
+
 # 🔹 Section D: Dictionaries & Loops
+
 # Q31
 # Count frequency of each element in a list.
 # Q32
@@ -177,6 +241,7 @@ print(count_vowel)
 # {1:"a",2:"b"}
 # Q38
 # Count occurrence of vowels using a dictionary.
+
 # 🔹 Section E: Pattern Recognition
 # Q39
 # Find the largest odd number in a list.
@@ -192,6 +257,7 @@ print(count_vowel)
 # Find the average of list elements.
 # Q45
 # Count how many elements are equal to the maximum element.
+
 # 🔹 Challenge Questions
 # Q46
 # Find the second largest distinct element.
