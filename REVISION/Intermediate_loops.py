@@ -189,28 +189,52 @@ print(smallest)
 
 # Q20.Count frequency of each character in a string.
 
+str = "heelooo"
+frequency = {}
+for words in str:
+    if words in frequency:
+        frequency[words]+= 1
+    else:
+        frequency[words] = 1
+print(frequency)    
+
 # 🔹 Section C: Loops + Conditions
 
 # Q21.Print all numbers between 1 and 100 divisible by both 3 and 5.
 
-# Q22
-# Count how many numbers between 1 and 100 are divisible by 7.
-# Q23
-# Find the sum of numbers from 1 to 100 divisible by 5.
-# Q24
-# Print all prime numbers from 1 to 100.
-# Q25
-# Check whether a given number is prime.
-# Q26
-# Count factors of a number.
-# Q27
-# Find the greatest factor of a number other than itself.
-# Q28
-# Find HCF of two numbers.
-# Q29
-# Find LCM of two numbers.
-# Q30
-# Check whether a number is a perfect number.
+for i in range(1,101):
+    if i%3==0 and i%5==0:
+        print(i)
+
+# Q22.Count how many numbers between 1 and 100 are divisible by 7.
+
+number_divisibleby7=0
+for num in range(1,101):
+    if num%7==0:
+        number_divisibleby7 += 1
+print(number_divisibleby7)
+
+# Q23.Find the sum of numbers from 1 to 100 divisible by 5.
+
+sum = 0
+for num in range(1,101):
+    if num%5==0:
+        sum = num+sum
+print(sum)
+
+# Q24.Print all prime numbers from 1 to 100.
+        
+# Q25.Check whether a given number is prime.
+
+# Q26.Count factors of a number.
+
+# Q27.Find the greatest factor of a number other than itself.
+
+# Q28.Find HCF of two numbers.
+
+# Q29.Find LCM of two numbers.
+
+# Q30.Check whether a number is a perfect number.
 
 # 🔹 Section D: Dictionaries & Loops
 
