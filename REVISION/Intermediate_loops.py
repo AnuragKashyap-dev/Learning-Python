@@ -15,7 +15,7 @@ for num in l:
             second = num
 print(second) 
 
-# # Q2.Find the second smallest number in a list.
+# Q2.Find the second smallest number in a list.
 
 l = [12,11,234,543]
 smallest = l[0]
@@ -28,7 +28,7 @@ for num in l:
             second_smallest = num
 print(second_smallest)
 
-# # Q3.Find the largest even number in a list.
+# Q3.Find the largest even number in a list.
 
 l = [24,56,87,65,66]
 largest = 0
@@ -223,12 +223,44 @@ for num in range(1,101):
 print(sum)
 
 # Q24.Print all prime numbers from 1 to 100.
-        
+
+for num in range(2, 101):
+    factors = 0
+    for i in range(1, num + 1):
+        if num % i == 0:
+            factors += 1
+    if factors == 2:
+        print(num)
+
 # Q25.Check whether a given number is prime.
+
+num = int(input("enter the number:- "))
+factors = 0
+for i in range(1,num+1):
+    if num % i == 0:
+        factors +=1
+if factors == 2:
+    print(f"yes, {num} is a prime number.")
+else:
+    print(f"no, {num} is not a prime number.")
 
 # Q26.Count factors of a number.
 
+num = int(input("enter a number:- "))
+factors = 0
+for i in range(1, num + 1):
+        if num % i == 0:
+            factors += 1
+print(f"{num} has {factors} factors")
+
 # Q27.Find the greatest factor of a number other than itself.
+
+num = int(input("enter a number:- "))
+largest_factor = 0
+for i in range(1,num+1):
+      if num % i == 0 and i > largest_factor and i != num:
+            largest_factor = i
+print(largest_factor)
 
 # Q28.Find HCF of two numbers.
 
