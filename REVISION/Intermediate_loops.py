@@ -262,11 +262,46 @@ for i in range(1,num+1):
             largest_factor = i
 print(largest_factor)
 
-# Q28.Find HCF of two numbers.
+# # Q28.Find HCF of two numbers.
+
+num1 = int(input("enter number1:- "))
+num2 = int(input("enter number2:- "))
+factor1 = [ ]
+factor2 = [ ]
+hcf = 0
+for i in range(1,num1+1):
+    if num1 % i == 0 :
+        factor1.append(i)
+for i in range(1,num2+1):
+    if num2%i==0:
+        factor2.append(i)
+for nums in factor1:
+    if nums in factor2 and nums>hcf:
+        hcf = nums
+print(hcf)
 
 # Q29.Find LCM of two numbers.
 
+a = 4
+b = 6
+largest = max(a, b)
+while True:
+    if largest % a == 0 and largest % b == 0:
+        print("LCM =", largest)
+        break
+    largest += 1
+
 # Q30.Check whether a number is a perfect number.
+
+num = int(input("Enter number: "))
+total = 0
+for i in range(1, num):
+    if num % i == 0:
+        total += i
+if total == num:
+    print("Perfect Number")
+else:
+    print("Not a Perfect Number")
 
 # 🔹 Section D: Dictionaries & Loops
 
