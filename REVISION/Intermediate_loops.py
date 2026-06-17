@@ -307,6 +307,7 @@ else:
 
 # Q31
 # Count frequency of each element in a list.
+list = ["apple","banana"]
 # Q32
 # Count frequency of each word in a sentence.
 # Q33
