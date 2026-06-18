@@ -307,7 +307,16 @@ else:
 
 # Q31
 # Count frequency of each element in a list.
-list = ["apple","banana"]
+
+l = [1, 2, 2, 3, 3, 3]
+freq = {}
+for num in l:
+    if num in freq:
+        freq[num] += 1
+    else:
+        freq[num] = 1
+print(freq)
+
 # Q32
 # Count frequency of each word in a sentence.
 # Q33
