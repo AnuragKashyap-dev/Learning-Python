@@ -317,8 +317,17 @@ for num in l:
         freq[num] = 1
 print(freq)
 
-# Q32
-# Count frequency of each word in a sentence.
+# Q32.Count frequency of each word in a sentence.
+
+sentence = "anurag is anurag"
+freq={}
+for words in sentence:
+  if words in freq:
+    freq[words] += 1
+  else:
+    freq[words] = 1
+print(freq) 
+
 # Q33
 # Count frequency of each character in a string.
 # Q34
