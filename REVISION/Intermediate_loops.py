@@ -319,6 +319,18 @@ print(freq)
 
 # Q32.Count frequency of each word in a sentence.
 
+sentence = "anurag is a coder"
+words = sentence.split()
+freq={}
+for word in words:
+  if word in freq:
+    freq[word] += 1
+  else:
+    freq[word] = 1
+print(freq)
+
+# Q33.Count frequency of each character in a string.
+
 sentence = "anurag is anurag"
 freq={}
 for words in sentence:
@@ -326,12 +338,10 @@ for words in sentence:
     freq[words] += 1
   else:
     freq[words] = 1
-print(freq) 
+print(freq)
 
-# Q33
-# Count frequency of each character in a string.
-# Q34
-# Find the student with highest marks from a dictionary.
+# Q34.Find the student with highest marks from a dictionary.
+
 # Q35
 # Find the student with lowest marks from a dictionary.
 # Q36
