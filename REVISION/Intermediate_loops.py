@@ -341,6 +341,13 @@ for words in sentence:
 print(freq)
 
 # Q34.Find the student with highest marks from a dictionary.
+ 
+
+
+
+
+
+
 
 # Q35
 # Find the student with lowest marks from a dictionary.
