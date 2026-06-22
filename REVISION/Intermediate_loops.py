@@ -342,12 +342,17 @@ print(freq)
 
 # Q34.Find the student with highest marks from a dictionary.
  
-
-
-
-
-
-
+dict = {"aryan":67,
+        "abhi":34,
+        "gian":88
+}
+items_dict = dict.values()
+largest_marks = 0
+for items in items_dict:
+  if items > largest_marks:
+    largest_marks = items
+  
+print(largest_marks)
 
 # Q35
 # Find the student with lowest marks from a dictionary.
