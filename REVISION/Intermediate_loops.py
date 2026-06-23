@@ -354,25 +354,24 @@ for items in items_dict:
   
 print(largest_marks)
 
-# Q35
-# Find the student with lowest marks from a dictionary.
-# Q36
-# Create a dictionary of squares:
+# Q35.Find the student with lowest marks from a dictionary.
+
+# Q36.Create a dictionary of squares:
 # Python
 # 1 : 1
 # 2 : 4
 # 3 : 9
 # ...
 # 10 : 100
-# Q37
-# Invert a dictionary:
+
+# Q37.Invert a dictionary:
 # Python
 # {"a":1,"b":2}
 # to
 # Python
 # {1:"a",2:"b"}
-# Q38
-# Count occurrence of vowels using a dictionary.
+
+# Q38.Count occurrence of vowels using a dictionary.
 
 # 🔹 Section E: Pattern Recognition
 # Q39
