@@ -356,6 +356,20 @@ print(largest_marks)
 
 # Q35.Find the student with lowest marks from a dictionary.
 
+marks = {
+    "Aman": 90,
+    "Ravi": 85,
+    "Anurag": 95,
+    "Sita": 88,
+    "Rahul": 80
+}
+lowest_marks = 100
+lowest_student = ""
+for student in marks:
+    if marks[student] < lowest_marks:
+        lowest_marks = marks[student]
+print(lowest_marks)
+
 # Q36.Create a dictionary of squares:
 # Python
 # 1 : 1
