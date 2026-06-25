@@ -378,6 +378,11 @@ print(lowest_marks)
 # ...
 # 10 : 100
 
+dict = {}
+for i in range(1,11):
+  dict[i]=i*i
+print(dict)
+
 # Q37.Invert a dictionary:
 # Python
 # {"a":1,"b":2}
