@@ -390,6 +390,13 @@ print(dict)
 # Python
 # {1:"a",2:"b"}
 
+dict = {"a":1,"b":2}
+dict2 = {}
+for keys in dict :
+    dict2[dict[keys]] = keys
+
+print(dict2)
+
 # Q38.Count occurrence of vowels using a dictionary.
 
 # 🔹 Section E: Pattern Recognition
