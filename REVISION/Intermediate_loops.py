@@ -398,6 +398,18 @@ for keys in dict :
 print(dict2)
 
 # Q38.Count occurrence of vowels using a dictionary.
+str = "my name is anurag kashyap"
+vowels = {
+    "a":0,
+    "e":0,
+    "i":0, 
+    "o":0,
+    "u":0
+}
+for words in str:
+    if words in vowels:
+        vowels[words] += 1
+print(vowels)
 
 # 🔹 Section E: Pattern Recognition
 # Q39
