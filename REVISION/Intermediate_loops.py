@@ -413,12 +413,12 @@ print(vowels)
 
 # 🔹 Section E: Pattern Recognition
 # Q39.Find the largest odd number in a list.
+
 # Q40.Find the smallest even number in a list.
+
 # Q41.Count numbers greater than 50.
-# Q42
-# Count negative numbers in a list.
-# Q43
-# Find the sum of positive numbers only.
+# Q42.Count negative numbers in a list.
+# Q43.Find the sum of positive numbers only.
 # Q44
 # Find the average of list elements.
 # Q45
