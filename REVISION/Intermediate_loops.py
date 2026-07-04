@@ -470,6 +470,9 @@ print(sum)
 
 # 🔹 Challenge Questions
 # Q46
+
+
+
 # Find the second largest distinct element.
 # Q47
 # Find the second smallest distinct element.
