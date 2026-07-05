@@ -466,6 +466,14 @@ print(sum)
 
 # Q44.Find the average of list elements.
 
+l = [1,2,3,6,4]
+average = 0 
+sum = 0
+for items in l:
+  sum = sum + items
+average = sum/len(l)
+print(f"average is {average}")
+
 # Q45.Count how many elements are equal to the maximum element.
 
 # 🔹 Challenge Questions
