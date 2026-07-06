@@ -476,6 +476,8 @@ print(f"average is {average}")
 
 # Q45.Count how many elements are equal to the maximum element.
 
+
+
 # 🔹 Challenge Questions
 # Q46
 
