@@ -476,16 +476,20 @@ print(f"average is {average}")
 
 # Q45.Count how many elements are equal to the maximum element.
 
-l = 
-
-
-
+l = [23,45,45,34,45]
+max = 0
+max_count = 0
+for nums in l : 
+  if nums > max:
+    max = nums
+print(max)
+for nums in l :
+  if nums == max :
+    max_count += 1
+print(max_count)
 
 # 🔹 Challenge Questions
 # Q46
-
-
-
 # Find the second largest distinct element.
 # Q47
 # Find the second smallest distinct element.
