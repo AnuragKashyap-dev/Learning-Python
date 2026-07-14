@@ -505,6 +505,7 @@ print(second)
       
 # Q47.Find the second smallest distinct element.
 
+
 # Q48.Find the most frequent element in a list.
 
 # Q49.Find the least frequent element in a list.
