@@ -505,6 +505,19 @@ print(second)
       
 # Q47.Find the second smallest distinct element.
 
+l = [12, 54, 76, 87, 55]
+
+smallest = l[0]
+second = float("inf")
+
+for nums in l:
+    if nums < smallest:
+        second = smallest
+        smallest = nums
+    elif nums < second and nums != smallest:
+        second = nums
+
+print(second)
 
 # Q48.Find the most frequent element in a list.
 
