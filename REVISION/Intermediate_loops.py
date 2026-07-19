@@ -534,7 +534,20 @@ print(most)
 
 # Q49.Find the least frequent element in a list.
 
+l = [12,21,21,21,21,12,23,23,34,23,34,34,23,21]
+freq = {}
+for num in l:
+    if num in freq:
+        freq[num] +=1 
+    else: 
+        freq[num] = 1
+least = list(freq)[0]
 
+for keys in freq:
+    if freq[keys] < freq[least]:
+        least = keys
+
+print(least)
 
 # Q50.Find all elements that occur exactly once.
 
