@@ -551,4 +551,18 @@ print(least)
 
 # Q50.Find all elements that occur exactly once.
 
+l = [12,43,34,34,34,56,56]
+freq = {}
+for nums in l:
+    if nums in freq:
+        freq[nums] += 1
+    else:
+        freq[nums] = 1
+
+for key in freq:
+    if freq[key] == 1:
+        print(key)
+
+
+
 
