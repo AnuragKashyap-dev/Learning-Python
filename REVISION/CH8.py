@@ -1,4 +1,88 @@
-def func1():
-    print("hello")
 
-func1()
+# CHAPTER 8 - FUNCTIONS & RECURSION
+# PRACTICE SET (LEVEL 1 → LEVEL 3)
+
+
+# Q1. Create a function to print "Hello, World!".
+
+# Q2. Create a function to print your name.
+
+# Q3. Create a function that prints numbers from 1 to 10.
+
+# Q4. Create a function that takes your name as an argument and prints "Hello <name>".
+
+# Q5. Create a function that takes two numbers and prints their sum.
+
+# Q6. Create a function that takes a number and prints its square.
+
+# Q7. Create a function that takes a number and prints whether it is even or odd.
+
+# Q8. Create a function that returns the sum of two numbers.
+
+# Q9. Create a function that returns the square of a number.
+
+# Q10. Create a function that returns the cube of a number.
+
+# Q11. Create a function that returns the largest of two numbers.
+
+# Q12. Create a function that returns the smallest of two numbers.
+
+# Q13. Create a function that returns the largest of three numbers.
+
+# Q14. Create a function that returns the factorial of a number.
+
+# Q15. Create a function that counts the vowels in a string.
+
+# Q16. Create a function that counts the consonants in a string.
+
+# Q17. Create a function that reverses a string.
+
+# Q18. Create a function that checks whether a string is a palindrome.
+
+# Q19. Create a function that returns the length of a list.
+
+# Q20. Create a function that returns the largest element in a list.
+
+# Q21. Create a function that returns the smallest element in a list.
+
+# Q22. Create a function that returns the sum of all elements in a list.
+
+# Q23. Create a function that counts how many times an element appears in a list.
+
+# Q24. Create a function that returns the second largest element in a list.
+
+# Q25. Create a function that returns the second smallest element in a list.
+
+# Q26. Create a function that returns the most frequent element in a list.
+
+# Q27. Create a function that returns the least frequent element in a list.
+
+# Q28. Create a function that returns all elements occurring exactly once.
+
+# Q29. Create a function that returns a dictionary of squares from 1 to n.
+
+# Q30. Create a function that counts the frequency of each word in a sentence.
+
+# ============================
+# RECURSION
+# ============================
+
+# Q31. Write a recursive function to print numbers from 1 to n.
+
+# Q32. Write a recursive function to print numbers from n to 1.
+
+# Q33. Write a recursive function to find the sum of first n natural numbers.
+
+# Q34. Write a recursive function to find the factorial of a number.
+
+# Q35. Write a recursive function to calculate x raised to the power n.
+
+# Q36. Write a recursive function to find the nth Fibonacci number.
+
+# Q37. Write a recursive function to count digits in a number.
+
+# Q38. Write a recursive function to reverse a string.
+
+# Q39. Write a recursive function to check whether a string is a palindrome.
+
+# Q40. Write a recursive function to find the sum of digits of a number.
