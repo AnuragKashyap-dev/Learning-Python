@@ -1,9 +1,12 @@
-
 # CHAPTER 8 - FUNCTIONS & RECURSION
 # PRACTICE SET (LEVEL 1 → LEVEL 3)
 
-
 # Q1. Create a function to print "Hello, World!".
+
+def printfunc():
+    print("hello world")
+
+printfunc()
 
 # Q2. Create a function to print your name.
 
