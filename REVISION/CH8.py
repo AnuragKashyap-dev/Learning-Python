@@ -10,9 +10,25 @@ printfunc()
 
 # Q2. Create a function to print your name.
 
+def name():
+    print("anurag kashyap")
+
+name()
+
 # Q3. Create a function that prints numbers from 1 to 10.
 
+def printnum():
+    for i in range(1,11):
+        print(i)
+    
+printnum()
+
 # Q4. Create a function that takes your name as an argument and prints "Hello <name>".
+
+def greet(name):
+    print("good morning"+ name)
+
+greet("anurag")
 
 # Q5. Create a function that takes two numbers and prints their sum.
 
