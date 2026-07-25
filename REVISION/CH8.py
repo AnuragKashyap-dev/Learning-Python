@@ -32,9 +32,29 @@ greet("anurag")
 
 # Q5. Create a function that takes two numbers and prints their sum.
 
+def sum(a,b):
+    result = a + b
+    print(result)
+
+sum(2,3)
+
 # Q6. Create a function that takes a number and prints its square.
 
+def square(a):
+    result = a*a
+    print(result)
+
+square(45)
+
 # Q7. Create a function that takes a number and prints whether it is even or odd.
+
+def evenodd(a):
+    if a % 2 == 0:
+        print(f"{a} is even")
+    else:
+        print(f"{a} is odd")
+
+evenodd(20)
 
 # Q8. Create a function that returns the sum of two numbers.
 
