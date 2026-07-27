@@ -58,7 +58,11 @@ evenodd(20)
 
 # Q8. Create a function that returns the sum of two numbers.
 
+def add(a, b):
+    return a + b
 
+add(7,7)
+print(add(7,7))
 
 # Q9. Create a function that returns the square of a number.
 
