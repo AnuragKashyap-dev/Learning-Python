@@ -66,6 +66,8 @@ print(add(7,7))
 
 # Q9. Create a function that returns the square of a number.
 
+
+
 # Q10. Create a function that returns the cube of a number.
 
 # Q11. Create a function that returns the largest of two numbers.
