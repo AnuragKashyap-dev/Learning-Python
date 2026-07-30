@@ -79,9 +79,33 @@ print(cube(9))
 
 # Q11. Create a function that returns the largest of two numbers.
 
+def largest(a,b):
+    if a < b :
+        return f"{b} is largest"
+    else:
+        return f"{a} is largest"
+print(largest(987,562511))
+
 # Q12. Create a function that returns the smallest of two numbers.
 
+def smallest(a,b):
+    if a < b :
+        return f"{a} is smallest"
+    else:
+
+        return f"{b} is smallest"
+print(smallest(67,9))
+
 # Q13. Create a function that returns the largest of three numbers.
+
+def largest(a,b,c):
+    if a > b and a > c :
+        return f"{a} is largest"
+    elif b > a and b > c :
+       return f"{b} is largest"
+    elif c > a and c > b:
+        return f"{c} is largest"
+print(largest(23,25,26))
 
 # Q14. Create a function that returns the factorial of a number.
 
