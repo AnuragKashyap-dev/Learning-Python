@@ -1,115 +1,125 @@
-# CHAPTER 8 - FUNCTIONS & RECURSION
-# PRACTICE SET (LEVEL 1 → LEVEL 3)
+# # CHAPTER 8 - FUNCTIONS & RECURSION
+# # PRACTICE SET (LEVEL 1 → LEVEL 3)
 
-# Q1. Create a function to print "Hello, World!".
+# # Q1. Create a function to print "Hello, World!".
 
-def printfunc():
-    print("hello world")
+# def printfunc():
+#     print("hello world")
 
-printfunc()
+# printfunc()
 
-# Q2. Create a function to print your name.
+# # Q2. Create a function to print your name.
 
-def name():
-    print("anurag kashyap")
+# def name():
+#     print("anurag kashyap")
 
-name()
+# name()
 
-# Q3. Create a function that prints numbers from 1 to 10.
+# # Q3. Create a function that prints numbers from 1 to 10.
 
-def printnum():
-    for i in range(1,11):
-        print(i)
+# def printnum():
+#     for i in range(1,11):
+#         print(i)
     
-printnum()
+# printnum()
 
-# Q4. Create a function that takes your name as an argument and prints "Hello <name>".
+# # Q4. Create a function that takes your name as an argument and prints "Hello <name>".
 
-def greet(name):
-    print("good morning"+ name)
+# def greet(name):
+#     print("good morning"+ name)
 
-greet("anurag")
+# greet("anurag")
 
-# Q5. Create a function that takes two numbers and prints their sum.
+# # Q5. Create a function that takes two numbers and prints their sum.
 
-def sum(a,b):
-    result = a + b
-    print(result)
+# def sum(a,b):
+#     result = a + b
+#     print(result)
 
-sum(2,3)
+# sum(2,3)
 
-# Q6. Create a function that takes a number and prints its square.
+# # Q6. Create a function that takes a number and prints its square.
 
-def square(a):
-    result = a*a
-    print(result)
+# def square(a):
+#     result = a*a
+#     print(result)
 
-square(45)
+# square(45)
 
-# Q7. Create a function that takes a number and prints whether it is even or odd.
+# # Q7. Create a function that takes a number and prints whether it is even or odd.
 
-def evenodd(a):
-    if a % 2 == 0:
-        print(f"{a} is even")
-    else:
-        print(f"{a} is odd")
+# def evenodd(a):
+#     if a % 2 == 0:
+#         print(f"{a} is even")
+#     else:
+#         print(f"{a} is odd")
 
-evenodd(20)
+# evenodd(20)
 
-# Q8. Create a function that returns the sum of two numbers.
+# # Q8. Create a function that returns the sum of two numbers.
 
-def add(a, b):
-    return a + b
+# def add(a, b):
+#     return a + b
 
-add(7,7)
-print(add(7,7))
+# add(7,7)
+# print(add(7,7))
 
-# Q9. Create a function that returns the square of a number.
+# # Q9. Create a function that returns the square of a number.
 
-def square(a):
-    return a*a
+# def square(a):
+#     return a*a
 
-print(square(4))
+# print(square(4))
 
-# Q10. Create a function that returns the cube of a number.
-def cube(a):
-    return a*a*a
+# # Q10. Create a function that returns the cube of a number.
+# def cube(a):
+#     return a*a*a
 
-print(cube(9))
+# print(cube(9))
 
-# Q11. Create a function that returns the largest of two numbers.
+# # Q11. Create a function that returns the largest of two numbers.
 
-def largest(a,b):
-    if a < b :
-        return f"{b} is largest"
-    else:
-        return f"{a} is largest"
-print(largest(987,562511))
+# def largest(a,b):
+#     if a < b :
+#         return f"{b} is largest"
+#     else:
+#         return f"{a} is largest"
+# print(largest(987,562511))
 
-# Q12. Create a function that returns the smallest of two numbers.
+# # Q12. Create a function that returns the smallest of two numbers.
 
-def smallest(a,b):
-    if a < b :
-        return f"{a} is smallest"
-    else:
+# def smallest(a,b):
+#     if a < b :
+#         return f"{a} is smallest"
+#     else:
 
-        return f"{b} is smallest"
-print(smallest(67,9))
+#         return f"{b} is smallest"
+# print(smallest(67,9))
 
-# Q13. Create a function that returns the largest of three numbers.
+# # Q13. Create a function that returns the largest of three numbers.
 
-def largest(a,b,c):
-    if a > b and a > c :
-        return f"{a} is largest"
-    elif b > a and b > c :
-       return f"{b} is largest"
-    elif c > a and c > b:
-        return f"{c} is largest"
-print(largest(23,25,26))
+# def largest(a,b,c):
+#     if a > b and a > c :
+#         return f"{a} is largest"
+#     elif b > a and b > c :
+#        return f"{b} is largest"
+#     elif c > a and c > b:
+#         return f"{c} is largest"
+# print(largest(23,25,26))
 
 # Q14. Create a function that returns the factorial of a number.
 
+def factorial(a):
+    int = 1
+    for i in range(1, a + 1):
+        int = int * i
+    print(f"Factorial = {int}")
+
+factorial(22)
+
 # Q15. Create a function that counts the vowels in a string.
+
+
 
 # Q16. Create a function that counts the consonants in a string.
 
