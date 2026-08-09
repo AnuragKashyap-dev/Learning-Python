@@ -164,6 +164,7 @@ reverse_string("anurag")
 
 # Q19. Create a function that returns the length of a list.
 
+
 # Q20. Create a function that returns the largest element in a list.
 
 # Q21. Create a function that returns the smallest element in a list.
