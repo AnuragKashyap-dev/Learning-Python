@@ -164,6 +164,12 @@ reverse_string("anurag")
 
 # Q19. Create a function that returns the length of a list.
 
+def lengthh(word):
+  length = len(word)
+  return length
+
+print(lengthh("nameing"))
+
 # Q20. Create a function that returns the largest element in a list.
 
 # Q21. Create a function that returns the smallest element in a list.
