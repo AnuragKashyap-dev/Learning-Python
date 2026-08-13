@@ -172,6 +172,7 @@ print(lengthh("nameing"))
 
 # Q20. Create a function that returns the largest element in a list.
 
+
 # Q21. Create a function that returns the smallest element in a list.
 
 # Q22. Create a function that returns the sum of all elements in a list.
