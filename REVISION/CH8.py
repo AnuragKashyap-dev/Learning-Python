@@ -214,6 +214,8 @@ print(count(l,20))
 
 # Q24. Create a function that returns the second largest element in a list.
 
+
+
 # Q25. Create a function that returns the second smallest element in a list.
 
 # Q26. Create a function that returns the most frequent element in a list.
