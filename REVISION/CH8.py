@@ -218,6 +218,8 @@ print(count(l,20))
 
 # Q25. Create a function that returns the second smallest element in a list.
 
+
+
 # Q26. Create a function that returns the most frequent element in a list.
 
 # Q27. Create a function that returns the least frequent element in a list.
