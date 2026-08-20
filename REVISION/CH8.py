@@ -170,51 +170,62 @@
 
 # print(lengthh("nameing"))
 
-# Q20. Create a function that returns the largest element in a list.
+# # Q20. Create a function that returns the largest element in a list.
 
-def largest(a,b,c):
-    if a>b and a>c:
-        return a 
-    elif b>a and b>c:
-        return b 
-    elif c>a and c>b:
-        return c 
+# def largest(a,b,c):
+#     if a>b and a>c:
+#         return a 
+#     elif b>a and b>c:
+#         return b 
+#     elif c>a and c>b:
+#         return c 
 
-print(largest(20,25,62))
+# print(largest(20,25,62))
     
-# Q21. Create a function that returns the smallest element in a list.
+# # Q21. Create a function that returns the smallest element in a list.
 
-def smallest(a,b,c):
-    if a<b and a<c:
-        return a 
-    elif b<a and b<c:
-        return b 
-    elif c<a and c<b:
-        return c 
+# def smallest(a,b,c):
+#     if a<b and a<c:
+#         return a 
+#     elif b<a and b<c:
+#         return b 
+#     elif c<a and c<b:
+#         return c 
 
-print(smallest(20,25,62))
+# print(smallest(20,25,62))
 
-# Q22. Create a function that returns the sum of all elements in a list.
+# # Q22. Create a function that returns the sum of all elements in a list.
 
-def sum(a,b,c):
-    result = a+b+c
-    return result
-print(sum(12,21,12))
+# def sum(a,b,c):
+#     result = a+b+c
+#     return result
+# print(sum(12,21,12))
 
-# Q23. Create a function that counts how many times an element appears in a list.
+# # Q23. Create a function that counts how many times an element appears in a list.
 
-def count(l,target):
-    counting = 0
-    for num in l:
-        if num == target:
-            counting += 1
-    return counting
-l = [20,25,2,0,1,2,20,20,20,20]
-print(count(l,20))
+# def count(l,target):
+#     counting = 0
+#     for num in l:
+#         if num == target:
+#             counting += 1
+#     return counting
+# l = [20,25,2,0,1,2,20,20,20,20]
+# print(count(l,20))
 
 # Q24. Create a function that returns the second largest element in a list.
 
-
+def findsecond(l):
+    largest = 0
+    secondlargest = 0
+    for nums in l:
+        if nums > largest:
+            largest = nums
+            if nums > secondlargest and nums<largest:
+                secondlargest = nums
+                return secondlargest    
+    # return largest
+l = [23,25,26,21,20]
+print(findsecond(l))
 
 # Q25. Create a function that returns the second smallest element in a list.
 
