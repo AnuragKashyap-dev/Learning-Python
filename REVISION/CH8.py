@@ -230,6 +230,8 @@ print(count(l,20))
 
 # Q28. Create a function that returns all elements occurring exactly once.
 
+
+
 # Q29. Create a function that returns a dictionary of squares from 1 to n.
 
 # Q30. Create a function that counts the frequency of each word in a sentence.
