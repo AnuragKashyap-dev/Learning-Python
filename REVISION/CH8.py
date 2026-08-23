@@ -215,14 +215,16 @@
 # Q24. Create a function that returns the second largest element in a list.
 
 def findsecond(l):
-    largest = 0
-    secondlargest = 0
+    largest = l[0]
+    secondlargest = l[0]
     for nums in l:
         if nums > largest:
+            secondlargest = largest
             largest = nums
-            if nums > secondlargest and nums<largest:
-                secondlargest = nums
-                return secondlargest    
+
+        elif nums > secondlargest and nums!=largest:
+             secondlargest = nums
+    return secondlargest    
     # return largest
 l = [23,25,26,21,20]
 print(findsecond(l))
