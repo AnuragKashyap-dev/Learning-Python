@@ -234,9 +234,6 @@ print(findsecond(l))
 
 
 # Q26. Create a function that returns the most frequent element in a list.
-
-
-
 # Q27. Create a function that returns the least frequent element in a list.
 # Q28. Create a function that returns all elements occurring exactly once.
 
