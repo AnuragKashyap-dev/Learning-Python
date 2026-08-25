@@ -212,32 +212,45 @@
 # l = [20,25,2,0,1,2,20,20,20,20]
 # print(count(l,20))
 
-# Q24. Create a function that returns the second largest element in a list.
+# # Q24. Create a function that returns the second largest element in a list.
+
+# def findsecond(l):
+#     largest = l[0]
+#     secondlargest = l[0]
+#     for nums in l:
+#         if nums > largest:
+#             secondlargest = largest
+#             largest = nums
+
+#         elif nums > secondlargest and nums!=largest:
+#              secondlargest = nums
+#     return secondlargest    
+#     # return largest
+# l = [23,25,26,21,20]
+# print(findsecond(l))
+
+# Q25. Create a function that returns the second smallest element in a list.
 
 def findsecond(l):
-    largest = l[0]
-    secondlargest = l[0]
+    smallest = l[0]
+    secondsmallest = l[0]
     for nums in l:
-        if nums > largest:
-            secondlargest = largest
-            largest = nums
+        if nums < smallest:
+            secondsmallest = smallest
+            smallest = nums
 
-        elif nums > secondlargest and nums!=largest:
-             secondlargest = nums
-    return secondlargest    
+        elif nums < secondsmallest and nums!=smallest:
+             secondsmallest = nums
+    return secondsmallest    
     # return largest
 l = [23,25,26,21,20]
 print(findsecond(l))
 
-# Q25. Create a function that returns the second smallest element in a list.
-
-
-
 # Q26. Create a function that returns the most frequent element in a list.
+
 # Q27. Create a function that returns the least frequent element in a list.
+
 # Q28. Create a function that returns all elements occurring exactly once.
-
-
 
 # Q29. Create a function that returns a dictionary of squares from 1 to n.
 
