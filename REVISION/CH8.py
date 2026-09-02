@@ -312,6 +312,8 @@ print(squares(9))
         
 # Q30. Create a function that counts the frequency of each word in a sentence.
 
+
+
 # ============================
 # RECURSION
 # ============================
