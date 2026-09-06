@@ -335,4 +335,5 @@ print(squares(9))
 
 # Q39. Write a recursive function to check whether a string is a palindrome.
 
+
 # Q40. Write a recursive function to find the sum of digits of a number.
