@@ -320,6 +320,8 @@ print(squares(9))
 
 # Q31. Write a recursive function to print numbers from 1 to n.
 
+
+
 # Q32. Write a recursive function to print numbers from n to 1.
 
 # Q33. Write a recursive function to find the sum of first n natural numbers.
