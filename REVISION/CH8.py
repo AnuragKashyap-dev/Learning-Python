@@ -312,7 +312,16 @@ print(squares(9))
         
 # Q30. Create a function that counts the frequency of each word in a sentence.
 
+def frequency(str):
+  freq = {}
 
+  for words in str.split():
+    if words in freq:
+      freq[words] += 1
+    else:
+      freq[words] = 1
+  return freq
+print(frequency("hello hello issac word"))
 
 # ============================
 # RECURSION
