@@ -358,6 +358,7 @@ reccur(5)
 # Q38. Write a recursive function to reverse a string.
 
 
+
 # Q39. Write a recursive function to check whether a string is a palindrome.
 
 
