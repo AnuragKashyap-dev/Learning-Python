@@ -79,6 +79,12 @@ else:
 
 # 9. Print Fibonacci series up to n terms.
 
+n = int(input("enter the nth term:- "))
+fibo = 0
+for i in range(1,n+1):
+        fibo = fibo+i
+print(fibo)
+
 # 10. Find sum of digits of a number.
 
 number = 122
