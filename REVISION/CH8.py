@@ -414,3 +414,5 @@
 # palindrome("nitin")
 
 # # Q40. Write a recursive function to find the sum of digits of a number.
+
+
