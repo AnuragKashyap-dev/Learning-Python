@@ -25,11 +25,15 @@
 
 # 5. Read only the first 10 characters of a file using read().
 
-with open("10.txt","r") as f:
-    data = f.read(10)
-    print(data)
+# with open("10.txt","r") as f:
+#     data = f.read(10)
+#     print(data)
 
 # 6. Read the first line of a file using readline().
+
+with open("10.txt","r") as f :
+    data = f.readline()
+    print(data)
 
 # 7. Read all lines using readlines() and print the resulting list.
 
