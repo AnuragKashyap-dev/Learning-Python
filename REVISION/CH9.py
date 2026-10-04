@@ -37,7 +37,6 @@
 
 # 7. Read all lines using readlines() and print the resulting list.
 
-
 # 8. Read a file line-by-line using a for loop.
 
 # 9. Count the number of lines in a file.
