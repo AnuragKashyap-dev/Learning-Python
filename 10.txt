@@ -1,1 +1,3 @@
-i am writing this to check whether the syntax is wrong or write.
+hello
+python
+suckk

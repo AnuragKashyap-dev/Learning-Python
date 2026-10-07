@@ -2,42 +2,50 @@
 
 # 1. Create data.txt and write "Hello Python" into it.
 
-# f = open("data.txt","w")
-# f.write("Hello Python")
-# f.close()
+f = open("data.txt","w")
+f.write("Hello Python")
+f.close()
 
 # 2. Open data.txt in read mode and print its complete content.
 
-# f = open('data.txt',"r")
-# text = f.read()
-# print(text)
+f = open('data.txt',"r")
+text = f.read()
+print(text)
 
 # 3. Write your name, age, and city into a file, each on a new line.
 
-# with open("me.txt","w") as f:
-#     f.write("Anurag \n14 \nMotihari")
+with open("me.txt","w") as f:
+    f.write("Anurag \n14 \nMotihari")
 
 # 4. Read a file using read() and print the result.
 
-# with open("me.txt","r") as f :
-#     text = f.read()
-# print(text)
+with open("me.txt","r") as f :
+    text = f.read()
+print(text)
 
 # 5. Read only the first 10 characters of a file using read().
 
-# with open("10.txt","r") as f:
-#     data = f.read(10)
-#     print(data)
+with open("10.txt","r") as f:
+    data = f.read(10)
+    print(data)
 
 # 6. Read the first line of a file using readline().
 
-# with open("10.txt","r") as f :
-#     data = f.readline()
-#     print(data)
+with open("10.txt","r") as f :
+    data = f.readline()
+    print(data)
 
 # 7. Read all lines using readlines() and print the resulting list.
 
+with open("10.txt","r") as f:
+    data = f.readlines()
+print(data)
+
 # 8. Read a file line-by-line using a for loop.
+
+with open("10.txt","r") as f:
+    for line in f:
+        print(line.strip())
 
 # 9. Count the number of lines in a file.
 
