@@ -53,6 +53,8 @@ with open("10.txt","r") as f:
 
 # 11. Count the number of characters in a file.
 
+
+
 # 12. Count how many times the word "Python" appears in a file.
 
 # 13. Print only the lines that contain the word "Python".
