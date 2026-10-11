@@ -1,4 +1,4 @@
-# FILE I/O — 30 PRACTICE QUESTIONS
+6# FILE I/O — 30 PRACTICE QUESTIONS
 
 # 1. Create data.txt and write "Hello Python" into it.
 
@@ -56,7 +56,6 @@ with open("Girl.txt","r") as file:
 print(count)
 
 # 10. Count the number of words in a file.
-
 
 
 # 11. Count the number of characters in a file.
