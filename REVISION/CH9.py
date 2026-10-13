@@ -58,8 +58,6 @@ print(count)
 # 10. Count the number of words in a file.
 
 
-
-
 # 11. Count the number of characters in a file.
 
 # 12. Count how many times the word "Python" appears in a file.
