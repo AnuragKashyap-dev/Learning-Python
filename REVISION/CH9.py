@@ -66,6 +66,8 @@ print(count)
 
 # 13. Print only the lines that contain the word "Python".
 
+
+
 # 14. Read a file and print each line with its line number.
 
 # 15. Create a file containing numbers from 1 to 10, one number per line. Then read and print them.
