@@ -73,6 +73,8 @@ print(count)
 
 # 17. Take 5 names from the user and append them to a file.
 
+
+
 # 18. Create a file using w mode, put some content in it, reopen it using w mode, and observe what happens.
 
 # 19. Add a new sentence to an existing file without removing its previous content.
