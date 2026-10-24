@@ -50,12 +50,18 @@ with open("10.txt","r") as f:
 # 9. Count the number of lines in a file.
 
 count = 0
-with open("Girl.txt","r") as file:
+with open("10.txt","r") as file:
   for line in file:
     count += 1
 print(count)
 
 # 10. Count the number of words in a file.
+
+with open("10.txt", "r") as file:
+    data = file.read()
+    words = data.split()
+
+print("Number of words:", len(words))
 
 # 11. Count the number of characters in a file.
 
