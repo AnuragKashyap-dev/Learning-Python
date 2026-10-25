@@ -65,6 +65,10 @@ print("Number of words:", len(words))
 
 # 11. Count the number of characters in a file.
 
+with open("Girl.txt", "r") as file:
+    data = file.read()
+
+print(len(data))
 
 # 12. Count how many times the word "Python" appears in a file.
 
