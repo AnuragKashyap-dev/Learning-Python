@@ -72,6 +72,12 @@ print(len(data))
 
 # 12. Count how many times the word "Python" appears in a file.
 
+with open("Girl.txt", "r") as file:
+    data = file.read().lower()
+    pythoncount = data.count("python")
+
+print(pythoncount)
+
 # 13. Print only the lines that contain the word "Python".
 
 # 14. Read a file and print each line with its line number.
