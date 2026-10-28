@@ -80,7 +80,10 @@ print(pythoncount)
 
 # 13. Print only the lines that contain the word "Python".
 
-
+with open("qp.txt","r") as file:
+  for line in file:
+    if "python" in line:
+      print(line)
 
 # 14. Read a file and print each line with its line number.
 
