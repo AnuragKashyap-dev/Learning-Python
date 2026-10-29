@@ -1,91 +1,97 @@
-6# FILE I/O — 30 PRACTICE QUESTIONS
+# # FILE I/O — 30 PRACTICE QUESTIONS
 
-# 1. Create data.txt and write "Hello Python" into it.
+# # 1. Create data.txt and write "Hello Python" into it.
 
-f = open("data.txt","w")
-f.write("Hello Python")
-f.close()
+# f = open("data.txt","w")
+# f.write("Hello Python")
+# f.close()
 
-# 2. Open data.txt in read mode and print its complete content.
+# # 2. Open data.txt in read mode and print its complete content.
 
-f = open('data.txt',"r")
-text = f.read()
-print(text)
+# f = open('data.txt',"r")
+# text = f.read()
+# print(text)
 
-# 3. Write your name, age, and city into a file, each on a new line.
+# # 3. Write your name, age, and city into a file, each on a new line.
 
-with open("me.txt","w") as f:
-    f.write("Anurag \n14 \nMotihari")
+# with open("me.txt","w") as f:
+#     f.write("Anurag \n14 \nMotihari")
 
-# 4. Read a file using read() and print the result.
+# # 4. Read a file using read() and print the result.
 
-with open("me.txt","r") as f :
-    text = f.read()
-print(text)
+# with open("me.txt","r") as f :
+#     text = f.read()
+# print(text)
 
-# 5. Read only the first 10 characters of a file using read().
+# # 5. Read only the first 10 characters of a file using read().
 
-with open("10.txt","r") as f:
-    data = f.read(10)
-    print(data)
+# with open("10.txt","r") as f:
+#     data = f.read(10)
+#     print(data)
 
-# 6. Read the first line of a file using readline().
+# # 6. Read the first line of a file using readline().
 
-with open("10.txt","r") as f :
-    data = f.readline()
-    print(data)
+# with open("10.txt","r") as f :
+#     data = f.readline()
+#     print(data)
 
-# 7. Read all lines using readlines() and print the resulting list.
+# # 7. Read all lines using readlines() and print the resulting list.
 
-with open("10.txt","r") as f:
-    data = f.readlines()
-print(data)
+# with open("10.txt","r") as f:
+#     data = f.readlines()
+# print(data)
 
-# 8. Read a file line-by-line using a for loop.
+# # 8. Read a file line-by-line using a for loop.
 
-with open("10.txt","r") as f:
-    for line in f:
-        print(line.strip())
+# with open("10.txt","r") as f:
+#     for line in f:
+#         print(line.strip())
 
-# 9. Count the number of lines in a file.
+# # 9. Count the number of lines in a file.
 
-count = 0
-with open("10.txt","r") as file:
-  for line in file:
-    count += 1
-print(count)
+# count = 0
+# with open("10.txt","r") as file:
+#   for line in file:
+#     count += 1
+# print(count)
 
-# 10. Count the number of words in a file.
+# # 10. Count the number of words in a file.
 
-with open("10.txt", "r") as file:
-    data = file.read()
-    words = data.split()
+# with open("10.txt", "r") as file:
+#     data = file.read()
+#     words = data.split()
 
-print("Number of words:", len(words))
+# print("Number of words:", len(words))
 
-# 11. Count the number of characters in a file.
+# # 11. Count the number of characters in a file.
 
-with open("Girl.txt", "r") as file:
-    data = file.read()
+# with open("Girl.txt", "r") as file:
+#     data = file.read()
 
-print(len(data))
+# print(len(data))
 
-# 12. Count how many times the word "Python" appears in a file.
+# # 12. Count how many times the word "Python" appears in a file.
 
-with open("Girl.txt", "r") as file:
-    data = file.read().lower()
-    pythoncount = data.count("python")
+# with open("Girl.txt", "r") as file:
+#     data = file.read().lower()
+#     pythoncount = data.count("python")
 
-print(pythoncount)
+# print(pythoncount)
 
 # 13. Print only the lines that contain the word "Python".
 
-with open("qp.txt","r") as file:
-  for line in file:
-    if "python" in line:
-      print(line)
+# with open("qp.txt","r") as file:
+#   for line in file:
+#     if "python" in line:
+#       print(line)
 
 # 14. Read a file and print each line with its line number.
+
+count = 1
+with open("qp.txt","r") as file:
+    for line in file:
+        print(count,line,end="")
+        count +=1
 
 # 15. Create a file containing numbers from 1 to 10, one number per line. Then read and print them.
 
