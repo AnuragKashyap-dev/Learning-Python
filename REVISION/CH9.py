@@ -87,13 +87,20 @@
 
 # 14. Read a file and print each line with its line number.
 
-count = 1
-with open("qp.txt","r") as file:
-    for line in file:
-        print(count,line,end="")
-        count +=1
+# count = 1
+# with open("qp.txt","r") as file:
+#     for line in file:
+#         print(count,line,end="")
+#         count +=1
 
 # 15. Create a file containing numbers from 1 to 10, one number per line. Then read and print them.
+
+# with open("number.txt","w") as filee:
+#     for i in range(1,11):
+#         filee.write(str(i)+"\n")
+# with open("number.txt","r") as f:
+#     t = f.read()
+# print(t)
 
 # 16. Write "Hello" to a file, then use append mode to add "World" without deleting "Hello".
 
