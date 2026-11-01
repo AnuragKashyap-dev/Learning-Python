@@ -104,7 +104,17 @@
 
 # 16. Write "Hello" to a file, then use append mode to add "World" without deleting "Hello".
 
+# with open("afile.txt","w") as file:
+#     file.write("hello")
+# with open("afile.txt","a") as file:
+#     file.write("world")
+
 # 17. Take 5 names from the user and append them to a file.
+
+# with open ("names.txt","a") as file:
+#     for i in range(1,6):
+#         name = input("enter a name:- ")
+#         file.write(name+"\n")
 
 # 18. Create a file using w mode, put some content in it, reopen it using w mode, and observe what happens.
 
