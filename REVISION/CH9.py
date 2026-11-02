@@ -118,7 +118,15 @@
 
 # 18. Create a file using w mode, put some content in it, reopen it using w mode, and observe what happens.
 
+# with open("put.txt","w") as file:
+#     file.write("hello world")
+# with open("put.txt","w") as file:
+#     file.write("oolala")
+
 # 19. Add a new sentence to an existing file without removing its previous content.
+
+with open("put.txt","a") as filee:
+    filee.write("\n"+"hello world")
 
 # 20. Write "Python is easy" to a file using the with open() statement.
 
