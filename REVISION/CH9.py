@@ -144,6 +144,8 @@ with open("put.txt","a") as filee:
 
 # 27. Read a file containing numbers and count how many are even and how many are odd.
 
+
+
 # 28. Read a file and create another file containing only the lines that contain the word "Python".
 
 # 29. Take a sentence from the user and append it to a file. Then read the complete file and display it.
