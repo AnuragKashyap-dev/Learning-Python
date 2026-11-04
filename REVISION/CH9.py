@@ -130,6 +130,9 @@ with open("put.txt","a") as filee:
 
 # 20. Write "Python is easy" to a file using the with open() statement.
 
+with open("python.txt","w") as file:
+    file.write("python is best")
+    
 # 21. Read a file using with open() and print its contents.
 
 # 22. Read a file line-by-line using with open() and a loop.
