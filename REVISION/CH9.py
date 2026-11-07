@@ -137,6 +137,7 @@ with open("python.txt","w") as file:
 
 
 
+
 # 22. Read a file line-by-line using with open() and a loop.
 
 # 23. Count the number of words in a file using with open().
