@@ -143,6 +143,7 @@ with open("open.txt","r") as filee:
 
 
 
+
 # 23. Count the number of words in a file using with open().
 
 # 24. Create a file containing several numbers. Read them and calculate their sum.
