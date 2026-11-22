@@ -141,6 +141,7 @@ with open("open.txt","r") as filee:
 
 # 22. Read a file line-by-line using with open() and a loop.
 
+with open(10.txt) as ffile:
 
 # 23. Count the number of words in a file using with open().
 
